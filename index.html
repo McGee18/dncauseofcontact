@@ -8,8 +8,18 @@
 </head>
 <body>
     <div class="container">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+            
+            <label for="ccn">Credit Card Number:</label>
+            <input type="tel" id="cnn" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="Enter a Proxy Credit Card Number" required>
+            <button type="submit">Submit</button>
+        </form>
 
-        
     </div>
 </body>
 </html>
