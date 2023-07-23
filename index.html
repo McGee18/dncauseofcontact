@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dncontactform</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <div class="container">
         <form>
-            <label for="name">Name:</label>
+            <div>
+            <label for="name">Name:</label> 
             <input type="text" id="name" placeholder="Enter Your Name" required>
+            </div>
             
+            <div>
             <label for="email">Email:</label>
             <input type="email" id="email" placeholder="Enter Your Email" required>
+            </div>
             
-            <label for="ccn">Credit Card Number:</label>
+            <div>
+            <label for="ccn">Card:</label>
             <input type="tel" id="cnn" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="Enter a Proxy Credit Card Number" required>
             <button type="submit">Submit</button>
+            <div>
         </form>
-
     </div>
 </body>
 </html>
